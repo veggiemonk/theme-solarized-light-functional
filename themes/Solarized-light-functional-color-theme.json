@@ -1,0 +1,274 @@
+{
+	"tokenColors": [
+		{
+			"settings": {
+				"background": "#FDF6E3",
+				"foreground": "#586E75"
+			}
+		},
+		{
+			"name": "Comment",
+			"scope": "comment",
+			"settings": {
+				"foreground": "#93A1A1"
+			}
+		},
+		{
+			"name": "String",
+			"scope": "string",
+			"settings": {
+				"foreground": "#2AA198"
+			}
+		},
+		{
+			"name": "Regexp",
+			"scope": "string.regexp",
+			"settings": {
+				"foreground": "#D30102"
+			}
+		},
+		{
+			"name": "Number",
+			"scope": "constant.numeric",
+			"settings": {
+				"foreground": "#D33682"
+			}
+		},
+		{
+			"name": "Variable",
+			"scope": [
+				"variable.language",
+				"variable.other"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#268BD2"
+			}
+		},
+		{
+			"name": "Keyword",
+			"scope": "keyword",
+			"settings": {
+				"foreground": "#859900"
+			}
+		},
+		{
+			"name": "Storage",
+			"scope": "storage",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#073642"
+			}
+		},
+		{
+			"name": "Class name",
+			"scope": [
+				"entity.name.class",
+				"entity.name.type.class"
+			],
+			"settings": {
+				"foreground": "#268BD2"
+			}
+		},
+		{
+			"name": "Function name",
+			"scope": "entity.name.function",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#D33682"
+			}
+		},
+		{
+			"name": "Variable start",
+			"scope": "punctuation.definition.variable",
+			"settings": {
+				"foreground": "#859900"
+			}
+		},
+		{
+			"name": "Embedded code markers",
+			"scope": [
+				"punctuation.section.embedded.begin",
+				"punctuation.section.embedded.end"
+			],
+			"settings": {
+				"foreground": "#D30102"
+			}
+		},
+		{
+			"name": "Built-in constant",
+			"scope": [
+				"constant.language",
+				"meta.preprocessor"
+			],
+			"settings": {
+				"foreground": "#B58900"
+			}
+		},
+		{
+			"name": "Support.construct",
+			"scope": [
+				"support.function.construct",
+				"keyword.other.new"
+			],
+			"settings": {
+				"foreground": "#D30102"
+			}
+		},
+		{
+			"name": "User-defined constant",
+			"scope": [
+				"constant.character",
+				"constant.other"
+			],
+			"settings": {
+				"foreground": "#CB4B16"
+			}
+		},
+		{
+			"name": "Inherited class",
+			"scope": "entity.other.inherited-class",
+			"settings": {}
+		},
+		{
+			"name": "Function argument",
+			"scope": "variable.parameter",
+			"settings": {
+				"fontStyle": "underline",
+				"foreground": "#CB4B16"
+			}
+		},
+		{
+			"name": "Tag name",
+			"scope": "entity.name.tag",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#268BD2"
+			}
+		},
+		{
+			"name": "Tag start/end",
+			"scope": [
+				"punctuation.definition.tag.begin",
+				"punctuation.definition.tag.end"
+			],
+			"settings": {
+				"foreground": "#93A1A1"
+			}
+		},
+		{
+			"name": "Tag attribute",
+			"scope": "entity.other.attribute-name",
+			"settings": {
+				"foreground": "#93A1A1"
+			}
+		},
+		{
+			"name": "Library function",
+			"scope": "support.function",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#D33682"
+			}
+		},
+		{
+			"name": "Continuation",
+			"scope": "punctuation.separator.continuation",
+			"settings": {
+				"foreground": "#D30102"
+			}
+		},
+		{
+			"name": "Library constant",
+			"scope": "support.constant",
+			"settings": {}
+		},
+		{
+			"name": "Library class/type",
+			"scope": [
+				"support.type",
+				"support.class"
+			],
+			"settings": {
+				"foreground": "#859900"
+			}
+		},
+		{
+			"name": "Library Exception",
+			"scope": "support.type.exception",
+			"settings": {
+				"foreground": "#CB4B16"
+			}
+		},
+		{
+			"name": "Library variable",
+			"scope": "support.other.variable",
+			"settings": {}
+		},
+		{
+			"name": "Invalid",
+			"scope": "invalid",
+			"settings": {}
+		}
+	],
+	"colors": {
+		"editorCursor.foreground": "#000000",
+		"editor.background": "#fdf6e3",
+		"editor.foreground": "#586e75",
+		"editorWhitespace.foreground": "#93a1a180",
+		"editor.lineHighlightBackground": "#facddd",
+		"editor.selectionBackground": "#b5d5f7",
+		"editor.inactiveSelectionBackground": "#e1e5ea",
+		"activityBar.background": "#ddd6c1",
+		"activityBar.dropBackground": "#eee8d5",
+		"activityBar.foreground": "#584c27",
+		"activityBarBadge.background": "#b58900",
+		"debugExceptionWidget.background": "#ddd6c1",
+		"debugExceptionWidget.border": "#ab395b",
+		"debugToolBar.background": "#ddd6c1",
+		"editorGroup.border": "#ddd6c1",
+		"editorGroup.dropBackground": "#ddd6c1aa",
+		"editorGroupHeader.tabsBackground": "#d9d2c2",
+		"extensionButton.prominentBackground": "#b58900",
+		"extensionButton.prominentHoverBackground": "#584c27aa",
+		"panel.border": "#ddd6c1",
+		"peekView.border": "#b58900",
+		"peekViewEditor.background": "#fffbf2",
+		"peekViewEditor.matchHighlightBackground": "#7744aa40",
+		"peekViewResult.background": "#eee8d5",
+		"peekViewTitle.background": "#eee8d5",
+		"pickerGroup.border": "#2aa19899",
+		"pickerGroup.foreground": "#2aa19899",
+		"sideBar.background": "#eee8d5",
+		"sideBarTitle.foreground": "#586e75",
+		"statusBar.background": "#eee8d5",
+		"statusBar.debuggingBackground": "#eee8d5",
+		"statusBar.foreground": "#586e75",
+		"statusBar.noFolderBackground": "#eee8d5",
+		"statusBarItem.prominentBackground": "#ddd6c1",
+		"statusBarItem.prominentHoverBackground": "#ddd6c199",
+		"tab.activeBackground": "#fdf6e3",
+		"tab.border": "#ddd6c1",
+		"tab.inactiveBackground": "#d3cbb7",
+		"tab.inactiveForeground": "#586e75",
+		"tab.hoverBorder": "#facddd",
+		"terminal.ansiBlack": "#073642",
+		"terminal.ansiBlue": "#268bd2",
+		"terminal.ansiBrightBlack": "#586e75",
+		"terminal.ansiBrightBlue": "#839496",
+		"terminal.ansiBrightCyan": "#93a1a1",
+		"terminal.ansiBrightGreen": "#586e75",
+		"terminal.ansiBrightMagenta": "#6c71c4",
+		"terminal.ansiBrightRed": "#cb4b16",
+		"terminal.ansiBrightWhite": "#eee8d5",
+		"terminal.ansiBrightYellow": "#657b83",
+		"terminal.ansiCyan": "#2aa198",
+		"terminal.ansiGreen": "#859900",
+		"terminal.ansiMagenta": "#d33682",
+		"terminal.ansiRed": "#dc322f",
+		"terminal.ansiWhite": "#eee8d5",
+		"terminal.ansiYellow": "#b58900",
+		"titleBar.activeBackground": "#eee8d5",
+	},
+	"name": "Solarized-light-functional"
+}

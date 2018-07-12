@@ -1,0 +1,33 @@
+{
+    "name": "solarized-light-functional",
+    "displayName": "Solarized-light-functional",
+    "description": "Based on Solarized light and tailored for functional programming style.",
+    "version": "2.0.0",
+    "publisher": "veggiemonk",
+    "engines": {
+        "vscode": "^1.25.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Solarized-light-functional",
+                "uiTheme": "vs",
+                "path": "./themes/Solarized-light-functional-color-theme.json"
+            }
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/veggiemonk/theme-solarized-light-functional.git"
+    },
+    "author": "veggiemonk <veggiemonk@outlook.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/veggiemonk/theme-solarized-light-functional/issues"
+    },
+    "homepage": "https://github.com/veggiemonk/theme-solarized-light-functional#readme",
+    "icon": "icon.png"
+}
